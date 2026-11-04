@@ -1,0 +1,21 @@
+[project]
+name = "treinamento-deep-agent"
+version = "0.1.0"
+description = "Treinamento prático de IA com Deep Agents (LangChain), Tools, Skills e Memória"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arxiv>=4.0.2",
+    "deepagents>=0.7.32",
+    "fastapi>=0.115.0",
+    "langchain>=1.4.8",
+    "langchain-anthropic>=1.7.9",
+    "langchain-core>=1.7.4",
+    "langchain-google-genai>=4.4.2",
+    "langchain-openai>=1.7.3",
+    "pydantic-settings>=2.0.0",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "rich>=13.0.0",
+    "uvicorn>=0.30.0",
+]
